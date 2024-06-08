@@ -21,13 +21,12 @@ import java.util.Map;
 			
 			if(map.containsKey("key1")) {
 				System.out.println("key1は存在します");
-			}else {
+				}else {
 				System.out.println("key1は存在しません");
-			}
+				}
 			
 			for(Map.Entry<String,String>e:map.entrySet()) {
 				System.out.println(e.getKey()+":"+e.getValue());
-			}
+				}
 		}
-
 	}
